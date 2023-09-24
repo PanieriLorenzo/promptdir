@@ -64,5 +64,5 @@ fn main() {
 		components = vec!["/".to_string()];
 	}
 
-	println!("{}", components.join("/"));
+	print!("{}", components.join("/"));
 }
